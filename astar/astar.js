@@ -87,7 +87,7 @@ function drawMap() {
             a = path[i];
             ctx.fillStyle = "#f00";
             ctx.fillRect(a.x, a.y, 1, 1);
-            txt += "(" + a.x + ", " + a.y + ") ";
+            txt += "(" + a.x + ", " + a.y + ")";
         }
         document.body.appendChild(document.createElement("p")).innerHTML = txt + "]";
         return;
